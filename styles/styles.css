@@ -226,11 +226,25 @@ td.user a {
     margin-top: 10rem;
   }
   .star {
+    margin-top: 8rem;
     font-size: 2.0rem;
   }
   img {
       width: 14rem;
       height: auto;
+  }
+
+  #search-user::-webkit-input-placeholder { /* WebKit browsers */
+      color: transparent;
+  }
+  #search-user:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: transparent;
+  }
+  #search-user::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: transparent;
+  }
+  #search-user :-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: transparent;
   }
 }
 
