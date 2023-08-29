@@ -209,11 +209,12 @@ td.user a {
     align-items: center;
     max-width: 30rem;
     padding: 3rem 4rem;
+    height: auto;
   }
   .search input {
     padding: 1rem;
     width: 23rem;
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   .search button {
     width: 13rem;
@@ -248,3 +249,56 @@ td.user a {
   }
 }
 
+@media (max-width: 550px) {
+  #app {
+    width: 10rem;
+    padding: 0.4rem 0.8rem;
+  }
+  .search input {
+    width: 10rem;
+  }
+
+  .search button {
+    width: 8rem;
+    font-size: 1.2rem;
+  }
+  .search button svg {
+    display: none;
+  }
+  table {
+    width: 10rem;
+    font-size: 1rem;
+  }
+  table * {
+    font-size: 2rem;
+  }
+  td.user img {
+    width: 3rem;
+    height: 3rem;
+  }
+  table td, table th {
+    padding: 0.6rem;
+  }
+  .border {
+    width: 6rem;
+    margin-top: 5rem;
+  }
+  .star {
+    margin-top: 4rem;
+    font-size: 1.6rem;
+  }
+  img {
+      width: 10rem;
+      height: auto;
+  }
+}
+
+
+@media (max-width: 380px) {
+  table * {
+    font-size: 1.4rem;
+  }
+  table td, table th {
+    padding: 0.4rem;
+  }
+}
