@@ -27,4 +27,4 @@
 
 - Design: [Rocketseat](https://www.rocketseat.com.br/)
 
-- Code: ![Caio Rocha](https://github.com/Invocador)
+- Code: ![Caio Rocha](https://github.com/caiowrocha)
