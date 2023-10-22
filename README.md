@@ -1,6 +1,6 @@
 # ⭐ [Github Favorites](https://github-favorites-nu-ten.vercel.app/)
 
-> <img src="./design/template.png" width="550" />
+<img src="./design/template.png" width="550" />
 
 
 ## Table of Contents
